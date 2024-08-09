@@ -1,0 +1,36 @@
+@media screen and (max-width: 1600px)
+  .uniq
+    &__row
+      gap: 40px
+      align-items: flex-start
+    &__img
+      position: sticky
+      top: 0
+
+@import "1440"
+
+@media screen and (max-width: 1200px)
+  .expert
+    background: url("../img/expert/man.webp") no-repeat center bottom/200px, url("../img/expert/bg.webp") no-repeat center/cover
+    padding: 85px 20px 300px
+    &__container
+      max-width: 540px
+    &__box
+      max-width: none
+    &__row
+      flex-direction: column
+      gap: 45px
+
+  .look
+    &__row
+      grid-template-columns: repeat(3, 1fr)
+      justify-content: center
+
+@import "991"
+
+@import "767"
+
+@media screen and (max-width: 575px)
+  .look
+    &__row
+      grid-template-columns: 1fr

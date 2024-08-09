@@ -1,0 +1,175 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+html
+    scroll-behavior: smooth
+
+img
+    max-width: 100%
+    height: auto
+
+body
+    font-size: 20px
+    line-height: 100%
+    font-family: 'Inter', sans-serif
+    font-style: normal
+    font-weight: 400
+    color: #000000
+    background: #fff
+
+
+.button
+    font-family: 'Inter', sans-serif
+    font-weight: 500
+    font-size: 21px
+    line-height: 100%
+    text-align: center
+    color: #fff
+    transition: 0.3s
+    cursor: pointer
+    text-decoration: none
+    border: none
+    background: linear-gradient(90deg, #d149cb 0%, #1f27d3 100%)
+    border-radius: 8px
+    padding: 20px 0
+    display: flex
+    align-items: center
+    justify-content: center
+    gap: 17px
+    width: 100%
+    max-width: 240px
+    &:hover
+        background: linear-gradient(90deg, #d951d3 0%, #252ede 100%)
+    &--transparent
+        background: transparent
+        border: 2px solid #e3cebd
+        &:hover
+            background: linear-gradient(90deg, #896452 0%, #f3ddcc 100%)
+            color: #000000
+    &--effect
+        position: relative
+        overflow: hidden
+        &:hover
+            transform: none
+        &::after
+            content: ''
+            position: absolute
+            width: 100%
+            height: 200%
+            transform: translateY(-50%)
+            background: linear-gradient( to right top, transparent 29%, rgba(255, 255, 255, 0.8) 29% 32%, transparent 32% 35%, rgba(255, 255, 255, 0.8) 35% 40%, transparent 42% 45%, rgba(67, 66, 66, 0.7) 45% 55%, transparent 55% 58%, rgba(255, 255, 255, 0.8) 58% 61%, transparent 61%)
+            opacity: 0.3
+            left: 0
+            top: 0
+            transition: 0.8s
+            z-index: 3
+            animation: toRight 6s infinite
+
+.input
+    width: 100%
+    padding: 25px
+    border-radius: 5px
+    border: none
+    background: rgb(243,244,247)
+    color: #7d7d7d
+    font-family: 'Inter', sans-serif
+    font-size: 18px
+    line-height: 100%
+    font-style: normal
+    font-weight: 400
+    &:focus
+        outline: none
+    &::placeholder
+        color: #7d7d7d
+
+.input-group
+    width: 100%
+    position: relative
+
+.politics
+    display: flex
+    gap: 16px
+    cursor: pointer
+    justify-content: center
+    a
+        color: #3f59f8
+        text-decoration: none
+        font-weight: 700
+    &__input
+        display: none
+        &:checked + .politics__ok
+            &::before
+                display: block
+    &__text
+        font-weight: 400
+        font-size: 16px
+        line-height: 20px
+        color: #848484
+        text-align: left
+    &__ok
+        min-width: 21px
+        width: 21px
+        height: 23px
+        border: 1px solid #b9a8a8
+        border-radius: 3px
+        position: relative
+        background: rgb(243,237,233)
+        &::before
+            content: ''
+            position: absolute
+            left: 6px
+            top: 3px
+            width: 18px
+            height: 13px
+            background: url('../img/ok.png') no-repeat center/contain
+            display: none
+
+.img-box
+    display: flex
+    align-items: center
+    justify-content: center
+
+
+//.textarea
+//    resize: none
+//    width: 100%
+//    padding: 18px 30px
+//    border: 1px solid #DDB093
+//    border-radius: 11px
+//    background: #fff
+//    font-style: normal
+//    font-weight: 300
+//    font-size: 25px
+//    line-height: 25px
+//    text-transform: uppercase
+//    color: rgba(14, 14, 14, 0.5)
+//    &:focus
+//        outline: none
+//
+//.label
+//    font-weight: 500
+//    font-size: 16px
+//    line-height: 120%
+//    text-shadow: 0px 3.27986px 40.9982px rgba(0, 0, 0, 0.05)
+//    display: block
+//    margin-bottom: 14px
+//
+//.select
+//    border: 0.409982px solid #000000
+//    border-radius: 6px
+//    padding: 23px
+//    appearance: none
+//    -moz-appearance: none
+//    -webkit-appearance: none
+//    position: relative
+//    width: 100%
+//    &:focus
+//        outline: none
+//
+//.option
+//    font-weight: 500
+//    font-size: 16.3993px
+//    line-height: 120%
+//    opacity: 0.5
+//    text-shadow: 0px 3.27986px 40.9982px rgba(0, 0, 0, 0.05)

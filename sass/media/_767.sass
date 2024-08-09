@@ -1,0 +1,81 @@
+@media screen and (max-width: 767px)
+  .footer
+    .header
+      &__row
+        flex-direction: column
+        align-items: center
+        gap: 20px
+      &__box
+        flex-direction: column
+    &__bot
+      flex-direction: column
+      align-items: center
+      gap: 20px
+    &__ball
+      left: auto
+      right: -30px
+      bottom: 24px
+
+  .platform
+    overflow: hidden
+    &__img
+      width: 100%
+      img
+        width: 435px
+        min-width: 435px
+        max-width: none
+    &__button
+      margin-top: 32px
+    &__row
+      flex-direction: column
+      gap: 22px
+      margin-bottom: 30px
+    &__title
+      min-width: 0
+
+  .personal
+    padding-left: 0
+    padding-right: 0
+    &__title
+      padding: 0 20px
+    &__card
+      border-radius: 0
+      &__row
+        grid-template-columns: 1fr
+
+  .uniq
+    padding: 0 0 70px 0
+    background: #f7f7f7
+    &__box
+      padding: 0 20px
+      max-width: none
+    &__row
+      flex-direction: column
+      align-items: center
+      gap: 50px
+    &__img
+      position: static
+      width: 100%
+      max-width: 360px
+      min-width: 0
+
+  .main
+    background: url("../img/main/man.webp") no-repeat center bottom/330px, url("../img/main/bg.webp") no-repeat center/cover
+    padding: 120px 20px 80px
+    &__img
+      &--1
+        top: 50%
+      &--2
+        bottom: 50px
+    &__subtitle
+      margin-bottom: 236px
+    &__container
+      max-width: 400px
+    &__row
+      flex-direction: column
+      align-items: center
+      gap: 20px
+    &__button
+      padding: 20px
+      &--2
+        max-width: 260px

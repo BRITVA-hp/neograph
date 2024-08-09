@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0cb74551-0492-43ac-b77a-3ebdea5b9f2f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/sass/templates/_uniq.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sass/templates/_whom.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/concord.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/android-chrome-192x192.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/android-chrome-192x192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/android-chrome-256x256.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/android-chrome-256x256.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/apple-touch-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/apple-touch-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/favicon-32x32.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/favicon-32x32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon/mstile-150x150.png" beforeDir="false" afterPath="$PROJECT_DIR$/favicon/mstile-150x150.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans/OpenSans-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans/OpenSans-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans/OpenSans-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans/OpenSans-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans/OpenSans-SemiBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fonts/OpenSans/OpenSans-SemiBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/attention.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/footer/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/footer/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/footer/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/footer/logo3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/footer/logo4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/footer/logo5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/footer/logo6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/footer/submit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/header/bg.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logoM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/bg.webp" beforeDir="false" afterPath="$PROJECT_DIR$/img/main/bg.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/main/bgM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ok.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/ok.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section10/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section11/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section12/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section13/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section14/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section15/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section16/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section17/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section18/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section2/_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section2/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section3/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section4/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section4/bgM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section5/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section6/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section6/bgM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section7/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section7/bgM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section8/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/section9/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_grid.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_grid.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/_settings.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_settings.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media/_1440.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_1440.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media/_767.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_767.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media/_991.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_991.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_media.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_footer.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_header.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_img.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_section10.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_section11.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_section12.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_section13.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_section14.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_section15.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_section16.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_section17.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_section18.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_section2.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_section3.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_section4.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_section5.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_section6.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_section7.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_section8.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_section9.sass" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2kO3ZS0gBlri349tbBloNnCRo1M" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/boris/Sites/layouts/other/freelance/neograph",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18968.24" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18968.24" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cb74551-0492-43ac-b77a-3ebdea5b9f2f" name="Changes" comment="" />
+      <created>1723140851124</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723140851124</updated>
+      <workItem from="1723140852145" duration="24639000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

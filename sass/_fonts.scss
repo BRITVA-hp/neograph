@@ -1,0 +1,45 @@
+//Inter
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-Black.woff') format('woff'), url('../fonts/Inter/Inter-Black.woff2') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-Bold.woff') format('woff'), url('../fonts/Inter/Inter-Bold.woff2') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-Medium.woff') format('woff'), url('../fonts/Inter/Inter-Medium.woff2') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-Regular.woff') format('woff'), url('../fonts/Inter/Inter-Regular.woff2') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+//Vremena
+@font-face {
+    font-family: 'Vremena';
+    src: url('../fonts/Vremena/VremenaBookItalic.woff') format('woff'), url('../fonts/Vremena/VremenaBookItalic.woff2') format('woff');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Vremena';
+    src: url('../fonts/Vremena/VremenaMedium.woff') format('woff'), url('../fonts/Vremena/VremenaMedium.woff2') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Vremena';
+    src: url('../fonts/Vremena/VremenaMediumItalic.woff') format('woff'), url('../fonts/Vremena/VremenaMediumItalic.woff2') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
