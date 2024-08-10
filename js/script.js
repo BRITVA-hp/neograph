@@ -73,4 +73,73 @@ document.addEventListener('DOMContentLoaded', () => {
   })
 
 
+  //form
+  // let selector = document.querySelector("#tel")
+  // let im = new Inputmask("+7(999) 999-99-99")
+  // im.mask(selector)
+
+  let validation = new JustValidate("#modalForm")
+
+  validation.addField("#name", [
+    {
+      rule: "required",
+      errorMessage: "Введите имя!"
+    },
+    {
+      rule: "minLength",
+      value: 2,
+      errorMessage: "Минимум 2 символа!"
+    }
+  ]).addField("#surname", [
+    {
+      rule: "required",
+      errorMessage: "Введите фамилию!"
+    },
+    {
+      rule: "minLength",
+      value: 2,
+      errorMessage: "Минимум 2 символа!"
+    }
+  ]).addField("#session", [
+    {
+      rule: "required",
+      errorMessage: 'Выберите сессию'
+    }
+  ]).addField("#contact", [
+    {
+      rule: "required",
+      errorMessage: "Обязательное поле"
+    }
+  ]).addField("#contact_msg", [
+    {
+      rule: "required",
+      errorMessage: "Выберите вариант"
+    }
+  ]).addField("#politics", [
+    {
+      rule: "required",
+      errorMessage: "Согласие обязательно"
+    }
+  ]).onSuccess(async function () {
+    let data = {
+      session: document.getElementById("session").value,
+      name: document.getElementById("name").value,
+      surname: document.getElementById("surname").value,
+      contact: document.getElementById("contact").value,
+      contact_msg: document.getElementById("contact_msg").value
+    }
+    let response = await fetch("mail.php", {
+      method: "POST",
+      body: JSON.stringify(data),
+      headers: {
+        "Content-Type": "application/json; charset=UTF-8"
+      }
+    })
+
+    let result = await response.text()
+
+    alert(result)
+  })
+
+
 })

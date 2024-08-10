@@ -438,7 +438,7 @@
 
 <div class="modal modal-main">
   <div class="modal__container">
-    <form action="#" class="modal__dialog">
+    <form id="modalForm" action="#" class="modal__dialog">
       <div class="modal__close">
         <img src="img/close.png" alt="close">
       </div>
@@ -448,7 +448,7 @@
       <div class="modal__row">
         <div class="input-group modal__input-group">
           <div class="modal__select__arrow"></div>
-          <select class="modal__select">
+          <select id="session" class="modal__select">
             <option selected value="Сессия «Личность»">Сессия «Личность»</option>
             <option value="Сессия «Экспертность»">Сессия «Экспертность»</option>
           </select>
@@ -457,21 +457,21 @@
       <p class="modal__header">Введите ваши данные</p>
       <div class="modal__row">
         <div class="input-group modal__input-group">
-          <input placeholder="Имя" type="text" class="input modal__input">
+          <input id="name" placeholder="Имя" type="text" class="input modal__input">
         </div>
         <div class="input-group modal__input-group">
-          <input placeholder="Фамилия" type="text" class="input modal__input">
+          <input id="surname" placeholder="Фамилия" type="text" class="input modal__input">
         </div>
       </div>
       <p class="modal__header">Как с вами связаться?</p>
       <div class="modal__row">
         <div class="input-group modal__input-group">
-          <input placeholder="Никнейм, ссылка или номер тел-на" type="text" class="input modal__input">
+          <input id="contact" placeholder="Никнейм, ссылка или номер тел-на" type="text" class="input modal__input">
         </div>
         <div class="input-group modal__input-group">
           <div class="modal__select__arrow"></div>
-          <select class="modal__select">
-            <option selected disabled>Месседжер для связи</option>
+          <select id="contact_msg" class="modal__select">
+            <option selected disabled value="">Месседжер для связи</option>
             <option value="Whatsapp">Whatsapp</option>
             <option value="Telegram»">Telegram</option>
             <option value="Telegram»">Вконтакте</option>
@@ -482,7 +482,7 @@
       <button class="button modal__button">Отправить</button>
 
       <label class="politics">
-        <input type="checkbox" class="politics__input">
+        <input checked id="politics" type="checkbox" class="politics__input">
         <span class="politics__ok"></span>
         <span class="politics__text">Даю согласие на <a href="#">обработку <br> персональных данных</a></span>
       </label>
@@ -509,7 +509,9 @@
   </div>
 </div>
 
-  <script src="js/script.js"></script>
+<!--  <script src="js/inputmask.min.js"></script>-->
+  <script src="js/just-validate.min.js"></script>
+  <script type="module" src="js/script.js"></script>
 
 </body>
 </html>
