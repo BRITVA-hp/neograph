@@ -19,12 +19,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   let scrollWidth = calcScroll();
 
-  function modal(modal, modalActiveClass, triggers, modalClose) {
+  function modal(modal, modalActiveClass, triggers, modalClose, noTriggers) {
     const triggers_ = document.querySelectorAll(triggers),
       modal_ = document.querySelector(modal),
-      modalClose_ = document.querySelector(modalClose);
+      modalClose_ = document.querySelectorAll(modalClose);
 
-    if (triggers_.length > 0) {
+    if (triggers_.length || noTriggers) {
       triggers_.forEach(item => {
         item.addEventListener('click', e => {
           e.preventDefault()
@@ -34,11 +34,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       });
 
-      modalClose_.addEventListener('click', () => {
-        modal_.classList.remove(modalActiveClass);
-        document.body.style.overflow = '';
-        document.body.style.marginRight = '0px';
-      });
+      modalClose_.forEach(el => {
+        el.addEventListener('click', () => {
+          modal_.classList.remove(modalActiveClass);
+          document.body.style.overflow = '';
+          document.body.style.marginRight = '0px';
+        });
+      })
 
       modal_.addEventListener('click', (e) => {
         if (e.target.classList.contains('modal__container')) {
@@ -52,6 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   modal('.modal-main', 'modal--active', '[data-modal-main]', '.modal-main .modal__close');
   modal('.modal-second', 'modal--active', '[data-modal-second]', '.modal-second .modal__close');
+  modal('.modal-thanks', 'modal--active', '[data-modal-thanks]', '.modal-thanks [data-modal-thanks-close]', true);
 
   // menu
 
@@ -138,8 +141,77 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let result = await response.text()
 
-    alert(result)
+    document.querySelector('.modal-thanks').classList.add('modal--active')
   })
 
+  // dropdown
+  document.dropdownR = { }
+  function dropdown(dropdownSelector, btnSelector, contentSelector, activeClass, componentId) {
+
+    if(!document.dropdownR[componentId]) {
+      document.dropdownR[componentId] = { }
+      document.dropdownR[componentId].selectors = { }
+      document.dropdownR[componentId].selectors.dropdownSelector = dropdownSelector
+      document.dropdownR[componentId].selectors.btnSelector = btnSelector
+      document.dropdownR[componentId].selectors.contentSelector = contentSelector
+      document.dropdownR[componentId].selectors.activeClass = activeClass
+    }
+
+    const dropdowns = document.querySelectorAll(document.dropdownR[componentId].selectors.dropdownSelector)
+    function close(e) {
+      if(e.target.closest(document.dropdownR[componentId].selectors.btnSelector) && !e.target.closest('[data-r-dropdown-close]')) {
+        const dropdown_ = e.target.closest(document.dropdownR[componentId].selectors.dropdownSelector)
+        document.querySelectorAll(document.dropdownR[componentId].selectors.dropdownSelector).forEach(el => {
+          if(el !== dropdown_) el.classList.remove(document.dropdownR[componentId].selectors.activeClass)
+        })
+        return
+      } else if (e.target.closest(document.dropdownR[componentId].selectors.contentSelector) && !e.target.closest('[data-r-dropdown-close]')) {
+        document.addEventListener('mouseup', close, { once: true })
+        return
+      }
+      document.querySelectorAll(document.dropdownR[componentId].selectors.dropdownSelector).forEach(el => { el.classList.remove(document.dropdownR[componentId].selectors.activeClass) })
+    }
+
+    function clickButton(e) {
+      const el = e.target.closest(document.dropdownR[componentId].selectors.dropdownSelector)
+      el.classList.toggle(document.dropdownR[componentId].selectors.activeClass)
+
+      if(el.classList.contains(document.dropdownR[componentId].selectors.activeClass)) {
+        document.addEventListener('mouseup', close, { once: true })
+      } else {
+        document.removeEventListener('mouseup', close)
+      }
+    }
+
+    if(!document.dropdownR[componentId].fn) {
+      document.dropdownR[componentId].fn = clickButton
+    }
+
+    dropdowns.forEach( el => {
+      const button = el.querySelector(document.dropdownR[componentId].selectors.btnSelector)
+      const content = el.querySelector(document.dropdownR[componentId].selectors.contentSelector)
+
+      button.removeEventListener('click', document.dropdownR[componentId].fn)
+      button.addEventListener('click', document.dropdownR[componentId].fn)
+    })
+  }
+
+  dropdown('.dropdown', '.dropdown__button', '.dropdown__content', 'dropdown--active')
+
+  //toggle dropdown items
+  const dropdowns = document.querySelectorAll('.dropdown')
+
+  dropdowns.forEach(_dropdown => {
+    const _input = _dropdown.querySelector('.dropdown__input')
+    const btnText = _dropdown.querySelector('.dropdown__button__text')
+    const items = _dropdown.querySelectorAll('.dropdown__item')
+    items.forEach(_item => {
+      _item.addEventListener('click', () => {
+        btnText.textContent = _item.textContent
+        btnText.classList.add('dropdown__button__text--checked')
+        _input.value = _item.textContent
+      })
+    })
+  })
 
 })

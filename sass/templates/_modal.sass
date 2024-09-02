@@ -46,6 +46,14 @@
         border-radius: 5px
         &:hover
             background: linear-gradient(90deg, #d951d3 0%, #252ede 100%)
+            img
+                &:first-child
+                    display: none
+                &:last-child
+                    display: block
+        img
+            &:last-child
+                display: none
     &__title
         font-size: 45px
         line-height: 60px
@@ -53,7 +61,7 @@
         font-weight: 700
         font-family: "Inter", sans-serif
         text-align: center
-        margin-bottom: 54px
+        margin-bottom: 40px
     &__header
         font-size: 28px
         line-height: 30px
@@ -66,33 +74,11 @@
         grid-template-columns: 1fr 1fr
         width: 100%
         gap: 30px
-        margin-bottom: 40px
-    &__select
-        border-radius: 5px
-        background-color: rgb(243,244,247)
-        padding: 25px
-        border: none
-        font-size: 18px
-        color: #000000
-        font-weight: 500
-        font-family: "Inter", sans-serif
-        -webkit-appearance: none
-        -moz-appearance: none
-        appearance: none
-        width: 100%
-        cursor: pointer
-        &__arrow
-            position: absolute
-            top: 50%
-            right: 26px
-            width: 17px
-            height: 10px
-            background: url("../img/arrow.png") no-repeat center
-            transform: translateY(-50%)
-        &:focus
-            outline: none
+        margin-bottom: 30px
     &__button
         margin: 0 auto 30px
+        height: 60px
+        padding: 0
 
     &-second
         .modal
@@ -114,3 +100,24 @@
                 max-width: 700px
             &__header
                 margin-bottom: 34px
+
+    &-thanks
+        &__button
+            width: 100%
+            max-width: 254px
+            margin: auto
+            height: 60px
+        &__title
+            font-size: 30px
+            line-height: 35px
+            color: #000000
+            font-weight: 700
+            font-family: "Inter", sans-serif
+            margin-bottom: 25px
+        &__img
+            margin-bottom: 25px
+        &__dialog
+            max-width: 614px
+            text-align: center
+        &__container
+            padding: 20px 0

@@ -43,10 +43,12 @@ body
         background: linear-gradient(90deg, #d951d3 0%, #252ede 100%)
     &--transparent
         background: transparent
-        border: 2px solid #e3cebd
+        outline: 2px solid #e3cebd
+        transition: none
         &:hover
-            background: linear-gradient(90deg, #896452 0%, #f3ddcc 100%)
+            background: linear-gradient(#896452, #f3ddcc)
             color: #000000
+            outline: none
     &--effect
         position: relative
         overflow: hidden
@@ -86,6 +88,7 @@ body
 .input-group
     width: 100%
     position: relative
+    max-width: 100%
 
 .politics
     display: flex
@@ -118,7 +121,7 @@ body
         &::before
             content: ''
             position: absolute
-            left: 6px
+            left: 4px
             top: 3px
             width: 18px
             height: 13px
@@ -132,6 +135,82 @@ body
 
 .just-validate-error-label
     text-align: center
+    font-size: 17px
+
+.text-center
+    text-align: center
+
+.dropdown
+    position: relative
+    z-index: 2
+    text-overflow: ellipsis
+    &--active
+       .dropdown
+            &__content
+                transform: none
+                opacity: 1
+                visibility: visible
+    &__button
+        border-radius: 5px
+        background-color: rgb(243,244,247)
+        padding: 25px
+        border: none
+        font-size: 21px
+        color: #7d7d7d
+        font-weight: 500
+        font-family: "Inter", sans-serif
+        -webkit-appearance: none
+        -moz-appearance: none
+        appearance: none
+        width: 100%
+        cursor: pointer
+        position: relative
+        input
+            position: absolute
+            left: 0
+            top: 0
+            display: none
+        &__text
+            display: block
+            white-space: nowrap
+            overflow: hidden
+            text-overflow: ellipsis
+            &--checked
+                color: #000
+        &__arrow
+            position: absolute
+            top: 50%
+            right: 26px
+            width: 17px
+            height: 10px
+            background: url("../img/arrow.png") no-repeat center
+            transform: translateY(-50%)
+    &__content
+        position: absolute
+        z-index: 2
+        top: calc(100% + 2px)
+        left: 0
+        width: 100%
+        transform: translateY(-5px)
+        opacity: 0
+        visibility: hidden
+        transition: 0.3s
+        border-radius: 5px
+        background: rgba(243,244,247,1)
+        box-shadow: 0 2px 2px 2px rgba(0,0,0, 0.1)
+        padding: 10px 0
+    &__item
+        font-size: 21px
+        color: #7d7d7d
+        font-weight: 500
+        font-family: "Inter", sans-serif
+        cursor: pointer
+        padding: 10px 25px
+        white-space: nowrap
+        overflow: hidden
+        text-overflow: ellipsis
+        &:hover
+            color: #4f4f4f
 
 
 //.textarea

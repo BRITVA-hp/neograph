@@ -41,7 +41,7 @@
       </nav>
 
       <div class="header__box">
-        <a href="#" class="header__tg">
+        <a href="https://t.me/+79022371884" class="header__tg">
           <img src="img/tg.png" alt="telegram">
         </a>
         <button data-modal-second class="button button--transparent header__button">Связаться со мной</button>
@@ -72,7 +72,7 @@
         <h2 class="main__subtitle">Распакуйте свою уникальность <br> на авторских сессиях</h2>
         <div class="main__row">
           <button data-modal-main class="button main__button--1 main__button">Пройти сканер</button>
-          <button data-modal-second class="button button--transparent main__button--2 main__button">Записаться на сессию</button>
+          <button data-modal-main class="button button--transparent main__button--2 main__button">Записаться на сессию</button>
         </div>
       </div>
     </div>
@@ -403,7 +403,7 @@
       </nav>
 
       <div class="header__box">
-        <a href="#" class="header__tg">
+        <a href="https://t.me/+79022371884" class="header__tg">
           <img src="img/tg.png" alt="telegram">
         </a>
         <button data-modal-second class="button button--transparent header__button">Связаться со мной</button>
@@ -441,17 +441,23 @@
     <form id="modalForm" action="#" class="modal__dialog">
       <div class="modal__close">
         <img src="img/close.png" alt="close">
+        <img src="img/closeWhite.png" alt="close">
       </div>
 
       <p class="modal__title">Заявка на сессию</p>
       <p class="modal__header">Выберите сессию из списка ниже</p>
       <div class="modal__row">
-        <div class="input-group modal__input-group">
-          <div class="modal__select__arrow"></div>
-          <select id="session" class="modal__select">
-            <option selected value="Сессия «Личность»">Сессия «Личность»</option>
-            <option value="Сессия «Экспертность»">Сессия «Экспертность»</option>
-          </select>
+        <div class="dropdown">
+          <input value="Сессия «Личность»" class="dropdown__input" id="session" type="hidden">
+          <div class="dropdown__button">
+            <span class="dropdown__button__text dropdown__button__text--checked">Сессия «Личность»</span>
+            <span class="dropdown__button__arrow"></span>
+          </div>
+          <div class="dropdown__content">
+            <div data-r-dropdown-close class="dropdown__item">Сессия «Личность»</div>
+            <div data-r-dropdown-close class="dropdown__item">Сессия «Экспертность»</div>
+            <div data-r-dropdown-close class="dropdown__item">Сессия «Бизнес»</div>
+          </div>
         </div>
       </div>
       <p class="modal__header">Введите ваши данные</p>
@@ -468,15 +474,29 @@
         <div class="input-group modal__input-group">
           <input id="contact" placeholder="Никнейм, ссылка или номер тел-на" type="text" class="input modal__input">
         </div>
-        <div class="input-group modal__input-group">
-          <div class="modal__select__arrow"></div>
-          <select id="contact_msg" class="modal__select">
-            <option selected disabled value="">Месседжер для связи</option>
-            <option value="Whatsapp">Whatsapp</option>
-            <option value="Telegram»">Telegram</option>
-            <option value="Telegram»">Вконтакте</option>
-          </select>
+
+        <div class="dropdown">
+          <input value="" class="dropdown__input" id="contact_msg" type="hidden">
+          <div class="dropdown__button">
+            <span class="dropdown__button__text">Месседжер для связи</span>
+            <span class="dropdown__button__arrow"></span>
+          </div>
+          <div class="dropdown__content">
+            <div data-r-dropdown-close class="dropdown__item">Whatsapp</div>
+            <div data-r-dropdown-close class="dropdown__item">Telegram</div>
+            <div data-r-dropdown-close class="dropdown__item">Вконтакте</div>
+          </div>
         </div>
+
+<!--        <div class="input-group modal__input-group">-->
+<!--          <div class="modal__select__arrow"></div>-->
+<!--          <select id="contact_msg" class="modal__select">-->
+<!--            <option selected disabled value="">Месседжер для связи</option>-->
+<!--            <option value="Whatsapp">Whatsapp</option>-->
+<!--            <option value="Telegram»">Telegram</option>-->
+<!--            <option value="Telegram»">Вконтакте</option>-->
+<!--          </select>-->
+<!--        </div>-->
       </div>
 
       <button class="button modal__button">Отправить</button>
@@ -496,15 +516,30 @@
     <div class="modal__dialog">
       <div class="modal__close">
         <img src="img/close.png" alt="close">
+        <img src="img/closeWhite.png" alt="close">
       </div>
 
-      <p class="modal__title">Заявка на сессию</p>
-      <p class="modal__header">Вы можете позвонить по номеру</p>
-      <a href="tel:+79022371884" class="modal__tel">+7 (902) 237-18-84</a>
-      <p class="modal__header">Либо написать в мессенджер</p>
-      <a href="#" class="modal__tg">
+      <p class="modal__title text-center">Заявка на сессию</p>
+      <p class="modal__header text-center">Вы можете позвонить по номеру</p>
+      <a href="tel:+79022371884" class="modal__tel text-center">+7 (902) 237-18-84</a>
+      <p class="modal__header text-center">Либо написать в мессенджер</p>
+      <a href="https://t.me/+79022371884" target="_blank" class="modal__tg">
         <img src="img/tg.png" alt="telegram">
       </a>
+    </div>
+  </div>
+</div>
+
+<div class="modal modal-thanks">
+  <div class="modal__container modal-thanks__container">
+    <div class="modal__dialog modal-thanks__dialog">
+      <div data-modal-thanks-close class="modal__close modal-thanks__close">
+        <img src="img/close.png" alt="close">
+        <img src="img/closeWhite.png" alt="close">
+      </div>
+      <img src="img/thanks.png" alt="thanks" class="modal-thanks__img">
+      <p class="modal-thanks__title">Ваша заявка <br> отправлена</p>
+      <a data-modal-thanks-close href="#" class="button modal-thanks__button">Вернуться на главную</a>
     </div>
   </div>
 </div>

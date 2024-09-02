@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cb74551-0492-43ac-b77a-3ebdea5b9f2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/mail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/_settings.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_settings.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media/_1440.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_1440.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/media/_991.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_991.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_menu.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_menu.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_modal.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_modal.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_personal.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_personal.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_platform.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_platform.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_uniq.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_uniq.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BRITVA-hp&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BRITVA-hp/neograph.git&quot;,
+    &quot;accountId&quot;: &quot;6840ef13-c065-4441-9276-28cd1ead1923&quot;
+  }
+}</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -35,6 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/boris/Sites/layouts/other/freelance/neograph",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -47,8 +66,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18968.24" />
-        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18968.24" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PS-242.21829.154" />
+        <option value="bundled-php-predefined-a98d8de5180a-4d9f4c849d09-com.jetbrains.php.sharedIndexes-PS-242.21829.154" />
       </set>
     </attachedChunks>
   </component>
@@ -61,7 +80,11 @@
       <option name="presentableId" value="Default" />
       <updated>1723140851124</updated>
       <workItem from="1723140852145" duration="25057000" />
-      <workItem from="1723200888887" duration="9036000" />
+      <workItem from="1723200888887" duration="9071000" />
+      <workItem from="1723446137886" duration="30000" />
+      <workItem from="1723765023355" duration="446000" />
+      <workItem from="1723792745643" duration="15000" />
+      <workItem from="1725288006765" duration="9665000" />
     </task>
     <servers />
   </component>
