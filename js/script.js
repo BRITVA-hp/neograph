@@ -28,6 +28,17 @@ document.addEventListener('DOMContentLoaded', () => {
       triggers_.forEach(item => {
         item.addEventListener('click', e => {
           e.preventDefault()
+          const dropdownSession = modal_.querySelector('.dropdown--session')
+          if(dropdownSession) {
+            const dataModalSession = item.getAttribute('data-modal-session')
+            if(dataModalSession) {
+              dropdownSession.querySelector('#session').value = dataModalSession
+              dropdownSession.querySelector('.dropdown__button__text').textContent = dataModalSession
+            } else {
+              dropdownSession.querySelector('#session').value = 'Сессия «Личность»'
+              dropdownSession.querySelector('.dropdown__button__text').textContent = 'Сессия «Личность»'
+            }
+          }
           modal_.classList.add(modalActiveClass);
           document.body.style.overflow = 'hidden';
           document.body.style.marginRight = `${scrollWidth}px`;

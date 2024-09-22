@@ -12,11 +12,8 @@
       <change beforePath="$PROJECT_DIR$/sass/_settings.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/_settings.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/media/_1440.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_1440.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/media/_991.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/media/_991.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/templates/_menu.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_menu.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sass/templates/_main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_main.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sass/templates/_modal.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_modal.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/templates/_personal.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_personal.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/templates/_platform.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_platform.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/templates/_uniq.sass" beforeDir="false" afterPath="$PROJECT_DIR$/sass/templates/_uniq.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +81,8 @@
       <workItem from="1723446137886" duration="30000" />
       <workItem from="1723765023355" duration="446000" />
       <workItem from="1723792745643" duration="15000" />
-      <workItem from="1725288006765" duration="9665000" />
+      <workItem from="1725288006765" duration="11148000" />
+      <workItem from="1727042209136" duration="2161000" />
     </task>
     <servers />
   </component>

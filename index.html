@@ -294,7 +294,7 @@
               </div>
             </div>
           </div>
-          <button data-modal-main class="button personal__card__button">Запись на сессию</button>
+          <button data-modal-main data-modal-session="Сессия «Экспертность»" class="button personal__card__button">Запись на сессию</button>
         </div>
       </div>
 
@@ -325,7 +325,7 @@
               </div>
             </div>
           </div>
-          <button data-modal-main class="button personal__card__button">Запись на сессию</button>
+          <button data-modal-main data-modal-session="Сессия «Бизнес»" class="button personal__card__button">Запись на сессию</button>
         </div>
       </div>
 
@@ -447,7 +447,7 @@
       <p class="modal__title">Заявка на сессию</p>
       <p class="modal__header">Выберите сессию из списка ниже</p>
       <div class="modal__row">
-        <div class="dropdown">
+        <div class="dropdown dropdown--session">
           <input value="Сессия «Личность»" class="dropdown__input" id="session" type="hidden">
           <div class="dropdown__button">
             <span class="dropdown__button__text dropdown__button__text--checked">Сессия «Личность»</span>
@@ -470,7 +470,7 @@
         </div>
       </div>
       <p class="modal__header">Как с вами связаться?</p>
-      <div class="modal__row">
+      <div class="modal__row modal__row--last">
         <div class="input-group modal__input-group">
           <input id="contact" placeholder="Никнейм, ссылка или номер тел-на" type="text" class="input modal__input">
         </div>
